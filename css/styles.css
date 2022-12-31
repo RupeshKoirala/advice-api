@@ -1,0 +1,52 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.box{
+    height: 400px;
+    width: 450px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin: 14rem auto;
+    text-align: center;
+    position: relative; /*This sets the parent container for future absolute position of green circle and dice*/
+}
+
+.adviceNumber{
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(150, 100%, 66%);
+    padding-top: 9%;
+    letter-spacing: 3px;
+}
+.advice{
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 10%;
+}
+
+svg .horizontal-divider{
+    color: white;
+    margin: 3rem auto;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.green-circle{
+    height: 75px;
+    width: 75px;
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -2.4rem;
+    left: 11.96rem;
+}
+.green-circle:hover{
+    box-shadow: 0 0 20px 5px hsl(150, 100%, 66%);
+}
+.dice{
+    position: absolute;
+    bottom: -0.9rem;
+    right: 13.2rem;
+}
